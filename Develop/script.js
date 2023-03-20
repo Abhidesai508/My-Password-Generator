@@ -1,4 +1,4 @@
-// Assignment Code
+
 var generateBtn = document.querySelector("#generate");
 
 const upperLetters = "ABCDEFGHIJKLMNOPQSRTUVWXYZ";
@@ -62,7 +62,7 @@ function generatePassword () {
 }
 return pwd;
 }
-// Write password to the #password input
+
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
@@ -99,5 +99,4 @@ if (temp.length == 0) {
   }
 }
 
-// Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
